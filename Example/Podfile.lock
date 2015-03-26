@@ -1,0 +1,14 @@
+PODS:
+  - DZQQLib (0.1.0)
+
+DEPENDENCIES:
+  - DZQQLib (from `../`)
+
+EXTERNAL SOURCES:
+  DZQQLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DZQQLib: 3265edc1b39489fbdd215a051765abef8347b995
+
+COCOAPODS: 0.35.0.rc2
