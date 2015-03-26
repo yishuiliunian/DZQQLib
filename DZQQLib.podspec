@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DZQQLib"
-  s.version          = "0.1.0"
+  s.version          = "2.8.1"
   s.summary          = "DZQQLib qq开放平台库维护"
   s.description      = <<-DESC
                        DZQQLib qq开放平台库维护，方便在其他cocopods项目中引用
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/yishuiliunian/DZQQLib.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '5.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*', 'Pod/QQ/**/*.{h,m}'
